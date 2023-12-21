@@ -1,0 +1,11 @@
+README.md
+setup.py
+Event_Detection.egg-info/PKG-INFO
+Event_Detection.egg-info/SOURCES.txt
+Event_Detection.egg-info/dependency_links.txt
+Event_Detection.egg-info/entry_points.txt
+Event_Detection.egg-info/requires.txt
+Event_Detection.egg-info/top_level.txt
+event_detection/__init__.py
+event_detection/core.py
+event_detection/corpus.py
