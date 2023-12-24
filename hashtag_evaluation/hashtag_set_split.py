@@ -159,8 +159,8 @@ def logReg_dataset_prep(user_cluster_time_map_path, time_first, time_last):
 if __name__ == "__main__":
     time_first, time_second, time_last = dataset_spliter("/home/dayouwu2/event_detection/event_detection_twitter/artifact_dir/temp_output/input_file.pkl")
 
-    # tokenizer = AutoTokenizer.from_pretrained('Twitter/twhin-bert-base')
-    # model = AutoModel.from_pretrained('Twitter/twhin-bert-base')
+    tokenizer = AutoTokenizer.from_pretrained('Twitter/twhin-bert-base')
+    model = AutoModel.from_pretrained('Twitter/twhin-bert-base')
     
     # hashtag_time_train, hashtag_user_map = hashtag_user_time_map_generator("/home/dayouwu2/event_detection/event_detection_twitter/artifact_dir/temp_output/input_file.pkl")
     # filtered_hashtag_user= {key: value for key, value in hashtag_user_map.items() if len(value) > 2000}
